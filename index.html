@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Browser</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🎬 Movie Browser</h1>
+    <input type="text" id="searchInput" placeholder="Search movies...">
+  </header>
+
+  <main id="movieContainer"></main>
+
+  <!-- Movie Details Modal -->
+  <div id="movieModal" class="modal hidden">
+    <div class="modal-content">
+
+      <span id="closeModal">&times;</span>
+
+      <img id="modalPoster">
+      <h2 id="modalTitle"></h2>
+      <p id="modalRating"></p>
+      <p id="modalRelease"></p>
+      <p id="modalOverview"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
